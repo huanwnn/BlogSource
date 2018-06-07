@@ -39,8 +39,12 @@ $ hexo deploy
 
 More info: [Deployment](https://hexo.io/docs/deployment.html)
 
+### Code highlight
+
 ``` cs
 foreach (var item in array) {
 	item.value = 0;
 }
 ```
+
+More info: [hightlight.js](http://highlightjs.readthedocs.io/en/latest/css-classes-reference.html)
