@@ -6,9 +6,30 @@ Visual Studio-like style based on original C# coloring by Jason Diamond <jason@d
 .highlight {
   display: block;
   overflow-x: auto;
-  padding: 0.5em;
-  background: white;
+  padding: 0 0.5em;
+  background: #f1f1f1;
   color: black;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.highlight .gutter {
+  width: 8%;
+  min-width: 10px;
+  text-align: center;
+  color: #bbb;
+}
+
+.highlight .code {
+  padding: 0 0.5em;
+}
+
+.highlight table {
+  margin: 0.5em 0;
+}
+
+.highlight table td {
+  border: 0;
 }
 
 .comment,
