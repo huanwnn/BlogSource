@@ -7,10 +7,11 @@ Visual Studio-like style based on original C# coloring by Jason Diamond <jason@d
   display: block;
   overflow-x: auto;
   padding: 0 0.5em;
-  background: #f1f1f1;
+  background: #f7f8f9;
   color: black;
   border: 1px solid #ddd;
   border-radius: 4px;
+  font-family: monospace;
 }
 
 .highlight .gutter {
