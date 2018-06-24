@@ -3,6 +3,10 @@
 Visual Studio-like style based on original C# coloring by Jason Diamond <jason@diamond.name>
 
 */
+figure {
+  margin: 1em 4%;
+}
+
 .highlight {
   display: block;
   overflow-x: auto;
