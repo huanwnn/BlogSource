@@ -1,4 +1,4 @@
-##關於Meta Tag  
+## 關於Meta Tag  
 
 放在HTML中的Head裡，全名叫做 **Metadata Tag**，中文名為詮釋資料標籤，意即資料的資料，是用來說明這一份HTML文件的特性和功能。以下用功能性分類常用的Meta Tag：
 
