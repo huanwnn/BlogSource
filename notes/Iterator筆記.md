@@ -150,23 +150,22 @@ public class SimpleList3 : SimpleList
 
 ``` C#
 public class SimpleEnumerator : IEnumerator<SimpleNode>
-{
-    public SimpleEnumerator(SimpleNode root)
-    {
-        Root = root;
-        IsDoing = false;
-    }
-
+{      
     public SimpleNode Root { get; set; }
     public SimpleNode Current { get; set; }
     public bool IsDoing { get; set; }
-
     object IEnumerator.Current
     {
         get
         {
             return Current;
         }
+    }
+
+    public SimpleEnumerator(SimpleNode root)
+    {
+        Root = root;
+        IsDoing = false;
     }
 
     public void Dispose()
