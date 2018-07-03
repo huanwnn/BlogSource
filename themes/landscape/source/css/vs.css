@@ -4,7 +4,7 @@ Visual Studio-like style based on original C# coloring by Jason Diamond <jason@d
 
 */
 figure {
-  margin: 1em 4%;
+  margin: 1em 0;
 }
 
 .highlight {
@@ -16,6 +16,7 @@ figure {
   border: 1px solid #ddd;
   border-radius: 4px;
   font-family: monospace;
+  font-size: 14px;
 }
 
 .highlight .gutter {
