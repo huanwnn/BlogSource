@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Wayne's Blog
+title: Keep Calm and Carry on
 subtitle:
 description:
 keywords:
 author: Wayne
-language:
+language: zh-tw
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://huan-wen.github.io
+url: https://huanwl.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -79,5 +79,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   - type: git
-    repo: https://github.com/huan-wen/huan-wen.github.io.git
+    repo: https://github.com/huanwl/huanwl.github.io.git
     branch: master
